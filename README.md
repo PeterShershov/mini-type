@@ -19,5 +19,5 @@ miniType.isNumber(1) // true
 
 miniType.isBoolean(false) // true
 
-miniType.isUndefined(undefined) // true
+miniType.getType("I AM A STRING") // "string"
 ```
