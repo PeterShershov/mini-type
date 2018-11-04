@@ -5,7 +5,7 @@ A mini utility for soft type validation
 ## Usage
 
 ```js
-import miniType from "@ananas/mini-type";
+import miniType from "mini-type";
 
 miniType.isFunction(() => "Hi!") // true
 
