@@ -1,10 +1,12 @@
 {
   "name": "mini-type",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Peter Shershov",
   "module": "src/mini-type.js",
   "main": "src/cjs/mini-type.js",
+  "licence": "MIT",
   "scripts": {
+    "prebuild": "rimraf ./src/cjs",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "build": "babel src --out-dir src/cjs"
@@ -19,6 +21,7 @@
     "@babel/preset-env": "^7.1.0",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^23.6.0",
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "prebuild": "^8.1.2"
   }
 }
