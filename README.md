@@ -5,19 +5,19 @@ A mini utility for soft type validation
 ## Usage
 
 ```js
-import isType from "@ananas/mini-type";
+import miniType from "@ananas/mini-type";
 
-isType.isFunction(() => "Hi!") // true
+miniType.isFunction(() => "Hi!") // true
 
-isType.isObject({ message: "Hi!" }) // true
+miniType.isObject({ message: "Hi!" }) // true
 
-isType.isArray(["Hi!"]) // true
+miniType.isArray(["Hi!"]) // true
 
-isType.isString("Hi!") // true
+miniType.isString("Hi!") // true
 
-isType.isNumber(1) // true
+miniType.isNumber(1) // true
 
-isType.isBoolean(false) // true
+miniType.isBoolean(false) // true
 
-isType.isUndefined(undefined) // true
+miniType.isUndefined(undefined) // true
 ```
