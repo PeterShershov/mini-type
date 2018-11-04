@@ -1,24 +1,24 @@
 {
-	"name": "mini-type",
-	"version": "1.0.0",
-	"author": "Peter Shershov",
-	"module": "src/mini-type.js",
-	"main": "src/cjs/mini-type.js",
-	"scripts": {
-		"test": "jest",
-		"test:watch": "jest --watchAll",
-		"build": "babel src --out-dir src/cjs"
-	},
-	"files": [
-		"lib"
-	],
-	"license": "MIT",
-	"devDependencies": {
-		"@babel/cli": "^7.1.2",
-		"@babel/core": "^7.1.2",
-		"@babel/preset-env": "^7.1.0",
-		"babel-core": "7.0.0-bridge.0",
-		"babel-jest": "^23.6.0",
-		"jest": "^23.6.0"
-	}
+  "name": "mini-type",
+  "version": "1.0.2",
+  "author": "Peter Shershov",
+  "module": "src/mini-type.js",
+  "main": "src/cjs/mini-type.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "build": "babel src --out-dir src/cjs"
+  },
+  "files": [
+    "src"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0"
+  }
 }
