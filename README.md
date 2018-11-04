@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/mini-type.svg)](https://badge.fury.io/js/mini-type)
+
 ## mini-type
 
 A mini utility for soft type validation
