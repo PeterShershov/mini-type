@@ -2,7 +2,7 @@
 
 ## mini-type
 
-A mini utility for soft type validation
+A mini utility for type validation
 
 ## Usage
 
